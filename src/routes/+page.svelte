@@ -1,20 +1,22 @@
-<style>
+<style lang="scss">
 
-    @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Roboto+Condensed:wght@700&display=swap');
-    h1{
-        font-size: 15vmin;
-        font-family: 'Mukta', sans-serif;
-        user-select: none;
-    }
-    main{
-        width: 100%;
-        height: 95vh;
-        display:grid;
-        place-items: center;
-    }
 </style>
 
+<header>
+    <div>
+        <img draggable="false" src="/appraising.gif" alt="A">
+    </div>
+</header>
+<main style="position: relative;">
+    <section>
+        <article>
+            <h1>Appraising</h1>
+            <h2>Praise the app</h2>
+        </article>
+        <p>COMING SOON</p>
+    </section>
+    <div class="circle" style="width: 70vw;height: 70vw;background: #4D69B1;opacity: 0.05;border-radius:100%;position: absolute;bottom: 5%;right: 30%;transform: translate(50%,50%)"></div>
+    <div class="circle" style="width: 70vw;height: 70vw;background: #4D69B1;opacity: 0.05;border-radius:100%;position: absolute;bottom: 5%;right: 30%;transform: translate(50%,50%) scale(1.4)"></div>
+    <div class="circle" style="width: 70vw;height: 70vw;background: #4D69B1;opacity: 0.05;border-radius:100%;position: absolute;bottom: 5%;right: 30%;transform: translate(50%,50%) scale(1.8)"></div>
 
-<main>
-    <h1>Appraising</h1>
 </main>
